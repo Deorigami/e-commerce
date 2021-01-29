@@ -1,0 +1,175 @@
+.NavContainer {
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  padding: 0 5rem 0 5rem;
+  justify-content: space-around;
+  align-items: center;
+  /* background: chartreuse; */
+}
+
+/* Menu */
+
+.menu {
+  width: 33%;
+  height: 100%;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.menu ul li {
+  position: relative;
+  list-style: none;
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.menu ul li a {
+  font-size: 1em;
+  color: black;
+  text-decoration: none;
+}
+
+.menu ul li .bubble {
+  display: flex;
+  position: absolute;
+  background: linear-gradient(86deg, #d05fe4 0%, #6523ff 100%);
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 0.6rem;
+  line-height: normal;
+  text-align: center;
+  width: 2rem;
+  height: 1rem;
+  border-radius: 2rem;
+
+  justify-content: center;
+  align-items: center;
+  top: 11%;
+  right: -50%;
+}
+
+.menu ul li .bubble:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0;
+  z-index: 1;
+  border-style: solid;
+  border-width: 0.5rem 0.5rem 0 0;
+  border-color: #b552c7 transparent transparent transparent;
+  bottom: -45%;
+  left: 50%;
+  margin-left: -0.7rem;
+}
+
+/* LOGO */
+
+.logo {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+}
+
+.logo h1 {
+  height: 100%;
+  margin-left: 0.2em;
+  color: black;
+  align-items: center;
+  font-size: 2em;
+  font-family: "Mr Dafoe", cursive;
+  font-family: "Yellowtail", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.1rem;
+}
+.logo h1 span {
+  font-size: 2em;
+  color: red;
+}
+
+/* SEARCH BAR*/
+
+.search {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.search .tools {
+  width: 13rem;
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background: lightcoral; */
+  border-radius: 2rem;
+  box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.1);
+}
+
+.search .tools input {
+  width: 60%;
+  height: 60%;
+  border: none;
+  background: transparent;
+  outline: none;
+  /* border: 1px solid; */
+
+  border-right: 2px solid rgb(0, 0, 0, 0.1);
+}
+
+.searchIcon {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.cart {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100%;
+}
+
+.cart a {
+  color: black;
+}
+
+.cartCount {
+  position: absolute;
+  top: -0.5rem;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: linear-gradient(to left, #6423ff, #cf5fe4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartCount p {
+  font-size: 0.6rem;
+  color: white;
+}

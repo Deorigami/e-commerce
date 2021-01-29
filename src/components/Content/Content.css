@@ -1,0 +1,183 @@
+main {
+  width: 100%;
+  height: 40rem;
+}
+
+/* ------------------- LEFT SIDE ------------------- */
+
+.left {
+  width: 50%;
+  height: 100%;
+  padding-left: 5rem;
+}
+
+.left header {
+  height: 60%;
+  width: 100%;
+  padding-top: 4rem;
+}
+
+header .title {
+  font-size: 1rem;
+}
+
+.left header h1 {
+  position: relative;
+  font-family: "Recoleta";
+  font-size: 5rem;
+  line-height: 0.8em;
+  text-align: left;
+  margin: 1rem 0 1rem 0;
+  white-space: nowrap;
+}
+
+.left header h1 img {
+  position: absolute;
+  height: 3rem;
+  top: 10%;
+  margin-left: 1rem;
+}
+
+.left header .info {
+  font-size: 0.9em;
+  width: 18rem;
+  line-height: 1.5rem;
+  height: 4rem;
+}
+
+header .buttons {
+  display: flex;
+  width: 19.5rem;
+  height: 4rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons .start {
+  display: flex;
+  height: 2.5rem;
+  width: 10rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  background: linear-gradient(140deg, #d05fe4 0%, #6523ff 50%);
+  color: white;
+  box-shadow: 0 5px 1rem rgb(0, 0, 0, 0.5);
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+
+.start p {
+  font-family: "Recoleta";
+}
+
+.start .arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1rem;
+  height: 1rem;
+  background: #ff553f;
+  border-radius: 100%;
+}
+
+.buttons .play {
+  display: flex;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 100%;
+  outline: none;
+  border: none;
+  box-shadow: 0 5px 1rem rgb(0, 0, 0, 0.5);
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+
+.buttons .playVid {
+  font-family: "Recoleta";
+}
+
+/* ------------------- RIGHT --------------- */
+
+/* -------------------- COMMENTS -------------------- */
+
+.comment {
+  display: flex;
+  justify-content: space-between;
+  height: 40%;
+  padding-top: 8%;
+  overflow: hidden;
+}
+
+.userInfo .name {
+  font-family: "Walsheim-Bold";
+}
+
+.userInfo .proffesion {
+  font-size: 0.8rem;
+}
+
+.userPhoto {
+  width: 13rem;
+}
+
+.userPhoto img {
+  position: relative;
+  height: 25rem;
+  z-index: -1;
+  top: -2rem;
+  left: -2rem;
+}
+
+.userComments {
+  width: 17rem;
+}
+
+.userComments i {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: rgb(0, 0, 0, 0.2);
+}
+
+.text h4 {
+  font-family: "Walsheim-Bold";
+  line-height: 2rem;
+  white-space: nowrap;
+}
+
+.rating {
+  display: flex;
+  height: 3.5rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.rating h4 {
+  font-family: "Walsheim-Bold";
+}
+
+.rating i {
+  font-size: 0.8rem;
+  color: #11c6ff;
+  margin-bottom: 0;
+  margin-left: 0.3rem;
+}
+
+.rating .line {
+  width: 4rem;
+  height: 0.1rem;
+  background: rgb(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  margin-left: 0.4rem;
+}
+
+.rating p {
+  font-size: 0.9rem;
+  margin-left: 0.4rem;
+}
+
+.hide {
+  display: none;
+}
